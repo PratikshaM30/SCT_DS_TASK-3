@@ -1,23 +1,53 @@
-# SCT_DS_TASK-3
-# Task 03 – Decision Tree Classifier
+SCT_DS_TASK-3
 
-## Objective
-To build a Decision Tree model to predict whether a customer will purchase a product or service using demographic and behavioral data.
+SCT_DS_TASK-3 — Bank Marketing Analysis & Decision Tree Classification
+This project was completed as Task 03 during my Data Science Internship at SkillCraft Technology.
+The task focuses on applying a machine learning classification model (Decision Tree) to predict customer responses based on bank marketing data.
 
-## Dataset
-Bank Marketing Dataset (UCI Machine Learning Repository)
+📌 Project Objective
+To analyze bank marketing data and build a Decision Tree model that predicts whether a customer will subscribe to a term deposit.
 
-## Methodology
-- Loaded semicolon-separated dataset
-- Performed one-hot encoding for categorical features
-- Split data into training and testing sets
-- Trained a Decision Tree Classifier
-- Evaluated using accuracy, confusion matrix, and classification report
+🛠 Tools & Technologies Used
+Python
+Pandas
+NumPy
+Matplotlib
+Scikit-learn
+Google Colab
 
-## Results
-- Accuracy: ~88%
-- The most important feature was call duration
-- The model performed well despite class imbalance
+ Data Preparation Steps
+Loaded the dataset using appropriate separators
+Examined dataset structure and data types
+Checked target variable distribution
+Encoded categorical features into numerical form
+Split data into training and testing sets
 
-## Conclusion
-The Decision Tree model effectively predicts customer subscription behavior and provides clear interpretability of decision rules.
+ Model Building
+Implemented a Decision Tree Classifier
+Trained the model using training data
+Generated predictions on test data
+Visualized the decision tree for interpretability
+
+ Model Evaluation
+The following evaluation techniques were used:
+Accuracy score
+Confusion Matrix
+Classification Report (Precision, Recall, F1-score)
+
+ Key Insights
+The dataset showed class imbalance between subscribed and non-subscribed customers
+Call duration played a major role in prediction
+Decision Tree helped understand decision rules clearly
+The model achieved good overall accuracy while highlighting challenges in predicting minority class
+
+ Output
+Trained Decision Tree model
+Evaluation metrics and confusion matrix
+Decision Tree visualization for feature-based decisions
+
+ Skills Gained
+Supervised machine learning
+Decision Tree algorithm understanding
+Data encoding techniques
+Model evaluation and interpretation
+Working with real-world business datasets
